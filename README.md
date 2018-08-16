@@ -1,5 +1,11 @@
 # parameterized-selectors
 
+[![Build Status](https://travis-ci.org/mcherryleigh/parameterized-selectors.svg?branch=master)](https://travis-ci.org/mcherryleigh/parameterized-selectors)
+[![Coverage Status](https://coveralls.io/repos/github/mcherryleigh/parameterized-selectors/badge.svg?branch=master)](https://coveralls.io/github/mcherryleigh/parameterized-selectors?branch=master)
+[![BCH compliance](https://bettercodehub.com/edge/badge/mcherryleigh/parameterized-selectors?branch=master)](https://bettercodehub.com/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/mcherryleigh/parameterized-selectors.svg)](https://greenkeeper.io/)
+
+
 A Reselect-inspired library, where selectors can be passed params and their dependencies are calculated automatically.
 
 Selector functions can be can be called inline from within each other, even conditionally or within loops, without needing to register dependencies up-front. This makes it easier to use external values like route params, or other arguments.
